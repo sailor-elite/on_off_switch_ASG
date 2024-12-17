@@ -29,7 +29,7 @@ This project implements an automatic Stop and Go Off Switch for the AS&G (Auto S
 # Schematic
 ![screenshot](docs/schematic.png)
 
-#PCB View
+# PCB View
 
 ![PCB](docs/3d_pcb.png)
 
