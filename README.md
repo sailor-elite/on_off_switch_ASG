@@ -41,5 +41,7 @@ To compile and upload the code for the ATtiny13A, the following tools and librar
 
 
 ## Casing
-SOON
+<p align="center">
+  <img src="docs/Casing.png" alt="Casing">
+</p>
 
