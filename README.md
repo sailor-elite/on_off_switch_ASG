@@ -23,8 +23,11 @@ This project implements an automatic Stop and Go Off Switch for the AS&G (Auto S
 | U2        | L78L05_SOT89  | Package_TO_SOT_SMD:SOT-89-3_Handsoldering |
 
 ## Dependencies
- SOON
-
+To compile and upload the code for the ATtiny13A, the following tools and libraries are required:
+- AVR-GCC
+- AVRDUDE
+- Make
+- USBasp Programmer
 ## Schematic
 <p align="center">
   <img src="docs/schematic.png" alt="schematic">
