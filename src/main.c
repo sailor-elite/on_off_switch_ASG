@@ -2,7 +2,7 @@
 #include <avr/interrupt.h>
 #include <avr/sleep.h>
 
-#define F_CPU 9600000UL
+#define F_CPU 1200000UL
 #define DelayTimeOn 10000
 #define DelayTimeOff 1000
 #define RelayPin PB3
@@ -20,8 +20,8 @@ void Setup_Power_Save()
 // Timer based delay
 void delay_ms(uint16_t ms)
 {
-    TCCR0A = 0;
-    TCCR0B = (1 << WGM02) | (1 << CS01) | (1 << CS00);
+    TCCR0A = (1 << WGM01);
+    TCCR0B = (1 << CS01);
     OCR0A = 149;
     
     uint16_t i;
